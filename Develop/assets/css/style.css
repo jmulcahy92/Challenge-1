@@ -30,8 +30,8 @@ h1 {
     font-size: 48px;
 }
 
-/* removed unnecessary parent specification */
-.seo {
+/* changed from .seo class to span tag */
+span {
     color: #d9dcd6;
 }
 
@@ -58,7 +58,8 @@ a {
 
 
 /* PHOTO */
-.hero {
+/* changed from .hero class to figure tag */
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
